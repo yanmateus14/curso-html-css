@@ -4,116 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu HTML</title>
+    <link rel="stylesheet" href="style.css">
      <style>
-        *{
-            margin: 0px;
-            padding: 0px;
-        }
-        body{
-            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-            url('https://assets.nflxext.com/ffe/siteui/vlv3/39f3c979-c105-4948-9c51-611eedf3a6fd/36ddf343-62a3-41a5-8da6-7745fc668cac/BR-pt-20230612-popsignuptwoweeks-perspective_alpha_website_medium.jpg');;
-            
-            background-size: cover;
-            background-attachment: fixed;
-            height: 100vh;
-            
-           
-        }
-
-        header{
-            margin: auto;
-            width: 60vw;
-            
-            margin-bottom: 200px;
-            display: flex;
-            justify-content: space-between;
-            
-        }
-
-        header h1{
-            margin: 15px 25px;
-            font-size: 1.9em;
-            text-transform: uppercase;
-            color: rgba(229, 9, 20, 1);
-            display: inline-block;
-            text-shadow: 1px 1px 5px black;
-        }
-        header a {
-            text-decoration: none;
-        }
-
-        header a:visited{
-            color: red;
-        }
-
-        header p {
-            font-size: 15px;
-            
-        }
-
-        div{
-            width: 100px;
-            height: 17px;
-            background-color: red;
-            display: inline-block;
-            text-align: center;
-            padding-top: 7px ;
-            border-radius: 5px;
-            box-shadow: 1px 1px 10px black;
-            margin: 15px 25px;
-
-        }
-
-        div p{
-            color: white;
-            font-weight: bold;
-            font-family: Arial, Helvetica, sans-serif;
-            text-shadow: 1px 1px 10px black;
-
-        }
-
-        main {
-            color: white;
-            margin: auto;
-            text-align: center;
-        }
-
-        main h2{
-            font-size: 2.3em;
-            font-family: Arial, Helvetica, sans-serif;
-            margin-bottom: 10px;
-            font-weight: bolder;
-            text-shadow: 1px 1px 5px black;
-        }
-
-        main p{
-            font-size: 20px;
-            margin-bottom: 10px;
-            font-family: Arial, Helvetica, sans-serif;
-            text-shadow: 1px 1px 5px black;
-            padding: 15px;
-
-        }
+        
      </style>
 </head>
 <body>
-    <header id="heading">
-        <h1>
-            <a href="#">Netflix</a>
-        </h1>
-
-        <div class="bottom">
-            <p>Entrar</p>
+    <header >
+        <div id="heading">
+            <h1>
+                <a href="#">Netflix</a>
+            </h1>
+            <div class="bottom">
+                <p id="bottom-en">Entrar</p>
+            </div>
         </div>
-    </header>
-
-    <main>
+        
         <h2>
             Filmes, séries e muito mais, sem limites
         </h2>
 
         <p>Assista onde quiser. Cancele quando quiser.</p>
         <p>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
-    </main>
+    </header>
 </body>
 </html>
