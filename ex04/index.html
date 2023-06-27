@@ -4,8 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .responsive-table{
+            max-width: 100%;
+            overflow-x: auto;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table caption{
+            caption-side: top;
+            font-style: italic;
+            text-align: center;
+            font-size: 15px;
+            margin: 5px 0;
+        }
+
+        table td, table th {
+            border: 1px solid gray;
+            padding: 5px;
+            text-align: left;
+        }
+
+        tfoot td, table th {
+            background-color: #ddd;
+        }
+
+        tfoot td {
+            font-style: italic;
+        }
+    </style>
 </head>
 <body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nisi sunt enim doloribus itaque architecto, cumque quas libero quis cupiditate temporibus, eveniet velit aspernatur corporis mollitia odio. Nulla, veniam ipsam.</p>
     
+    <div class="responsive-table">
+        <table>
+            <caption> Uma descrição </caption>
+            <thead>
+                <tr>
+                    <th>titulo 1</th>
+                    <th>titulo 2</th>
+                    <th>titulo 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>corpo 1</td>
+                    <td>corpo 2</td>
+                    <td>corpo 3</td>
+                </tr>
+                <tr>
+                    <td colspan="2">body 1</td>
+                    <td>body 3</td>
+                </tr>
+                <tr>
+                    <td>corpo 1</td>
+                    <td>corpo 2</td>
+                    <td>corpo 3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2" rowspan="2"></td>
+                    <td>corpo 3</td>
+                </tr>
+                <tr>
+                    <td>corpo 3</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
 </body>
 </html>
