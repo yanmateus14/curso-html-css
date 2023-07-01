@@ -50,13 +50,8 @@ header p#bottom-en {
     
 }
 
-div.bottom{
-    background-color: red;
-    border-radius: 5px;
-    box-shadow: 1px 1px 10px black;
-    margin: 15px 25px;
 
-}
+
 
 div p{
     color: white;
