@@ -159,5 +159,25 @@ main{
     margin: auto;
     width: 85vw;
     color: white;
-    height: 100vw;
+    background-image:linear-gradient(135deg, #00081D, #3C0820 ) ;
+    border-radius: 10px;
 }
+
+.main-conteiner{
+    width: 85%;
+    margin: auto;
+}
+
+img{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.Space{
+    width: 100%;
+    height: 10px;
+    background: #30243D;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
