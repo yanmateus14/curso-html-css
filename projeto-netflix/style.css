@@ -5,20 +5,25 @@
     padding: 0px;
 }
 body{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url('https://assets.nflxext.com/ffe/siteui/vlv3/39f3c979-c105-4948-9c51-611eedf3a6fd/36ddf343-62a3-41a5-8da6-7745fc668cac/BR-pt-20230612-popsignuptwoweeks-perspective_alpha_website_medium.jpg');;
-    
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+    background: #00081D;
     
 }
 
 header{
     margin: auto;
     width: 85vw;
+    height: 95vh;
     color: white;
+    
+
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('https://assets.nflxext.com/ffe/siteui/vlv3/39f3c979-c105-4948-9c51-611eedf3a6fd/36ddf343-62a3-41a5-8da6-7745fc668cac/BR-pt-20230612-popsignuptwoweeks-perspective_alpha_website_medium.jpg');;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    margin-top: 25px ;
+    margin-bottom: 25px;
     
 }
 
@@ -26,6 +31,7 @@ div#heading{
     display: flex;
     justify-content: space-between;
     padding-bottom: 140px;
+    margin-right: 25px;
 }
 
 .display-flex{
@@ -78,10 +84,11 @@ header a:visited{
 }
 
 .text-left{
+    margin: 15px 25px;
     width: 50%;
 }
 
-div p{
+header div p{
     color: white;
     font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
@@ -133,4 +140,11 @@ header p{
     color: white;
     font-weight: bold;
     font-size: 15px;
+}
+
+main{
+    margin: auto;
+    width: 85vw;
+    color: white;
+    height: 100vw;
 }
