@@ -19,7 +19,7 @@ header{
     margin: auto;
     width: 85vw;
     color: white;
-    text-align: center;
+    
 }
 
 div#heading{
@@ -27,12 +27,45 @@ div#heading{
     justify-content: space-between;
     padding-bottom: 200px;
 }
+
+.display-flex{
+    display: flex;
+}
+
+#language{
+    margin-right: 15px;
+    margin-top:20px;
+    appearance: none;
+    background: transparent;
+    background-color: black;
+    width: 150px;
+    height: 40px;
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    border: 1px solid white;
+    font-size: 18px;
+    font-weight:lighter;
+}
+
+.button{
+    margin-top: 22px;
+    background: red;
+    width: 85px;
+    height: 35px;
+    border-radius: 7px;
+    box-shadow: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
 header h1{
     margin: 15px 25px;
     font-size: 1.9em;
     text-transform: uppercase;
     color: rgba(229, 9, 20, 1);
-    
     text-shadow: 1px 1px 5px black;
 }
 
@@ -44,24 +77,17 @@ header a:visited{
     color: rgba(229, 9, 20, 1);
 }
 
-header p#bottom-en {
-    font-size: 15px;
-    padding: 10px;
-    
+.text-left{
+    width: 350px;
 }
-
-
-
 
 div p{
     color: white;
-    font-weight: bold;
+    font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 1px 1px 10px black;
 
 }
-
-
 
 header h2{
     font-size: 2.3em;
@@ -70,6 +96,7 @@ header h2{
     font-weight: bolder;
     text-shadow: 1px 1px 5px black;
     padding-bottom: 25px ;
+    
 }
 
 header p{
@@ -78,4 +105,17 @@ header p{
     text-shadow: 1px 1px 5px black;
     padding-bottom: 10px;
 
+}
+
+#email{
+    width: 50%;
+    height: 40px;
+    appearance: none;
+    background: black;
+    font-size: 15px;
+    border-radius: 7px;
+    border: 1px solid white;
+    margin-right: 15px;
+    padding-left: 5px;
+    
 }
