@@ -4,6 +4,9 @@
     margin: 0px;
     padding: 0px;
 }
+
+
+
 body{
     background: #00081D;
     
@@ -181,3 +184,11 @@ img{
     margin-bottom: 30px;
 }
 
+.center{
+    font-weight: bolder;
+    text-align: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(27%);
+    font-size: 20px;
+}
