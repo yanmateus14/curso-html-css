@@ -203,3 +203,10 @@ img{
 main h2{
     margin-bottom: 15px;
 }
+
+@media (min-width: 1050px){
+    .font-size{
+        font-size: 3em;
+    }
+
+}
