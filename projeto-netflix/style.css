@@ -5,7 +5,10 @@
     padding: 0px;
 }
 
-
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
 
 body{
     background: #00081D;
@@ -43,7 +46,7 @@ div#heading{
 
 header h1{
     margin: 15px 25px;
-    font-size: 1.9em;
+    font-size: 3rem;
     text-transform: uppercase;
     color: rgba(229, 9, 20, 1);
     text-shadow: 1px 1px 5px black;
@@ -162,7 +165,7 @@ main{
     margin: auto;
     width: 85vw;
     color: white;
-    background-image:linear-gradient(135deg, #00081D, #3C0820 ) ;
+    background-image:linear-gradient(135deg, #00081D, #1A0B27,#3C0820 ) ;
     border-radius: 10px;
 }
 
@@ -178,17 +181,24 @@ img{
 
 .Space{
     width: 100%;
-    height: 10px;
+    height: 7px;
     background: #30243D;
     border-radius: 10px;
     margin-bottom: 30px;
 }
 
-.center{
+.font-size{
     font-weight: bolder;
     text-align: left;
-    position: relative;
-    top: 50%;
-    transform: translateY(27%);
-    font-size: 20px;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+
+main h2{
+    margin-bottom: 15px;
 }
