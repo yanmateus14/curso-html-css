@@ -125,7 +125,7 @@ header div.text-left p{
 }
 
 #email{
-    width: 50%;
+    width: 75%;
     height: 50px;
     appearance: none;
     background: rgba(0, 0, 0, 0.5);
@@ -138,17 +138,18 @@ header div.text-left p{
 }
 
 .bnt{
-    
+    box-sizing: border-box;
     background: red;
-    width: 50% ;
+    width: 25% ;
     height: 50px;
     border-radius: 7px;
     text-shadow: 1px 1px 3px black;
     color: white;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 1.4rem;
     cursor: pointer;
     border: 1px solid red;
+    padding: 10px;
 }
 
 .bnt:hover{
