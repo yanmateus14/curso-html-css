@@ -4,78 +4,202 @@
     margin: 0px;
     padding: 0px;
 }
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
 body{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url('https://assets.nflxext.com/ffe/siteui/vlv3/39f3c979-c105-4948-9c51-611eedf3a6fd/36ddf343-62a3-41a5-8da6-7745fc668cac/BR-pt-20230612-popsignuptwoweeks-perspective_alpha_website_medium.jpg');;
-    
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+    background: #00081D;
     
 }
 
 header{
     margin: auto;
     width: 85vw;
+    height: 95vh;
     color: white;
-    text-align: center;
+    
+
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('https://assets.nflxext.com/ffe/siteui/vlv3/39f3c979-c105-4948-9c51-611eedf3a6fd/36ddf343-62a3-41a5-8da6-7745fc668cac/BR-pt-20230612-popsignuptwoweeks-perspective_alpha_website_medium.jpg');;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    margin-top: 25px ;
+    margin-bottom: 25px;
+    
 }
 
 div#heading{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 200px;
+    padding-bottom: 140px;
+    margin-right: 25px;
 }
+
+.display-flex{
+    display: flex;
+}
+
 header h1{
     margin: 15px 25px;
-    font-size: 1.9em;
+    font-size: 3rem;
     text-transform: uppercase;
     color: rgba(229, 9, 20, 1);
-    
     text-shadow: 1px 1px 5px black;
 }
 
-header a {
+header h1 a {
     text-decoration: none;
 }
 
-header a:visited{
+header h1 a:visited{
     color: rgba(229, 9, 20, 1);
 }
 
-header p#bottom-en {
+#language{
+    margin-right: 15px;
+    margin-top:20px;
+    appearance: none;
+    background: rgba(0, 0, 0, 0.51);
+    width: 150px;
+    height: 40px;
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    border: 1px solid white;
+    font-size: 18px;
+    font-weight:lighter;
+    box-shadow: 1px 1px 3px black;
+    text-shadow: 1px 1px 3px black;
+}
+
+.button{
+    margin-top: 22px;
+    background: red;
+    width: 85px;
+    height: 35px;
+    border-radius: 7px;
+    text-shadow: 1px 1px 3px black;
+    color: white;
+    font-weight: bold;
     font-size: 15px;
-    padding: 10px;
+    cursor: pointer;
+    border: 1px solid red;
+}
+
+.button:hover{
+    background-color: rgb(211, 0, 0);
+    border: 1px solid rgb(211, 0, 0) ;
+}
+
+.button:active{
+    background-color: rgb(197, 0, 0);
+    border: 1px solid rgb(197, 0, 0);
+}
+
+.text-left{
+    margin: 15px 25px;
+    width: 50%;
     
 }
 
-
-
-
-div p{
-    color: white;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 1px 1px 10px black;
-
-}
-
-
-
-header h2{
+header div.text-left h2{
     font-size: 2.3em;
-    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
     font-weight: bolder;
     text-shadow: 1px 1px 5px black;
     padding-bottom: 25px ;
 }
 
-header p{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 1px 1px 5px black;
-    padding-bottom: 10px;
+header div.text-left p{
+    color: white;
+    font-weight: normal;
+    text-shadow: 1px 1px 10px black;
+    font-size: 17px;
+    padding-bottom: 20px;
+    line-height: 25px;
+}
 
+#email{
+    width: 75%;
+    height: 50px;
+    appearance: none;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-right: 15px;
+    padding-left: 13px;
+    
+}
+
+.bnt{
+    box-sizing: border-box;
+    background: red;
+    width: 25% ;
+    height: 50px;
+    border-radius: 7px;
+    text-shadow: 1px 1px 3px black;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+    cursor: pointer;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.bnt:hover{
+    background-color: rgb(211, 0, 0);
+    border: 1px solid rgb(211, 0, 0) ;
+}
+
+.bnt:active{
+    background-color: rgb(197, 0, 0);
+    border: 1px solid rgb(197, 0, 0);
+}
+
+main{
+    margin: auto;
+    width: 85vw;
+    color: white;
+    background-image:linear-gradient(135deg, #00081D, #1A0B27,#3C0820 ) ;
+    border-radius: 10px;
+}
+
+.main-conteiner{
+    width: 85%;
+    margin: auto;
+}
+
+img{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.Space{
+    width: 100%;
+    height: 7px;
+    background: #30243D;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.font-size{
+    font-weight: bolder;
+    text-align: left;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+
+main h2{
+    margin-bottom: 15px;
 }

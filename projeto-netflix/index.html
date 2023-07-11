@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu HTML</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">  
 </head>
 <body>
     <header >
@@ -12,38 +12,86 @@
             <h1>
                 <a href="#">Netflix</a>
             </h1>
-            <form action="#">
+            <form action="#" class="display-flex">
                 <p>
-                    <select name="lenguage" id="lenguage">
-                        <optgroup label="lenguage">
+                    <select name="language" id="language">
+                        
 
-                            <option value="Portuguese" selected>🌎 Portugues</option>
+                            <option value="Portuguese" selected>🌎 Português</option>
                             <option value="English">🌎 Ingles</option>
 
-                        </optgroup>     
+                            
                     </select>
                 </p>
 
                 <p>
                     <button type="submit" class="button">
-                        entrar
+                        Entrar
                     </button>
                 </p>
                 
             </form>
         </div>
-        <h2>
-            Filmes, séries e muito mais, sem limites
-        </h2>
-        <p>Assista onde quiser. Cancele quando quiser.</p>
-        <p>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
-
-        <form action="#">
-            <p>
-                <input type="email" id="email" name="email" >
-            </p>
-            <button type="submit">Vamos lá</button>
-        </form>
+        <div class="text-left">
+            <h2>
+                Filmes, séries e muito mais, sem limites
+            </h2>
+            <p>Assista onde quiser. Cancele quando quiser.</p>
+            <p>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+            <form action="#" class="display-flex">
+                    <input type="email" id="email" name="email" placeholder="E-mail" >
+                <button type="submit" class="bnt">
+                    Vamos lá >
+                </button>
+            </form>
+        </div>
     </header>
+    <main>
+        <div class="main-conteiner">
+            <div class="conteiner">
+                <section class="display-flex">
+                    <div class="font-size">
+                        <h2>Aproveite na TV</h2>
+                        <p>Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</p>
+                        </div>
+                        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/enjoyOnTv/en.png" alt="Aproveite na tv">
+                    
+                </section>
+
+                <div class="Space"></div>
+
+                <section class="display-flex">
+                        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/watchEverywhere/en.png" alt="Assista onde quiser">
+                    <div class="font-size">
+                        <h2>Assista onde quiser</h2>
+                        <p>
+                            Assista a quantos filmes e séries quiser no celular, tablet, laptop e TV.</p>
+                    </div>
+                </section>
+
+                <div class="Space"></div>
+                
+                <section class="display-flex">
+                    <div class="font-size">
+                        <h2>Crie perfis para crianças</h2>
+                        <p>Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.</p>
+                    </div>
+                        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/kids/pt-BR.png" alt="Crie perfil para crianças">
+                    
+                </section>
+
+                <div class="Space"></div>
+
+                <section class="display-flex">
+                    
+                        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/download/pt-BR.png" alt="Baixe séries para assistir offline">
+                        <div class="font-size">
+                        <h2>Baixe séries para assistir offline</h2>
+                        <p>Disponíveis somente em planos sem anúncios.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
