@@ -8,27 +8,32 @@ html{
     scroll-behavior: smooth;
 }
 
-.grid {
-    height: 100vh;
-    padding: 15px;
-    border: 1px solid black;
+body{
     background-image: linear-gradient(to right, #15bc58, #af59bc);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+    width: 1200px;
+    padding: 15px;
+    margin: 0 auto;
+   
 }
 
 .grid .col{
     box-sizing: border-box;
-    width: 33.33%;
+    
     height: 300px;
     float: left;
     padding: 15px  ;
-    border: 1px solid black;
+
 }
 
 .grid .col-content{
     width: 100%;
     height: 100%;
     background: rgba(255, 0, 0, 0.548);
-    border: 1px solid black;
+    
     font-size: 1.6rem;
 }
 
@@ -40,16 +45,12 @@ html{
 
 .pai{
     width: 100vw;
-    height: 100vh;
+    height: 100vh ;
     background-color: #15bc58;
     
 }
 
-.pai>div{
-    width: 50%;
-    height: 50rem;
-    background: blue;
-}
+
 
 .color-one{
     background: #af59bc;
@@ -64,11 +65,56 @@ p{
     font-size: 2.5rem;
 }
 
-nav{
-    background-image: linear-gradient(to right, #15bc58, #af59bc)
+.menu{
+    background-image: linear-gradient(to right, #15bc58, #af59bc);
+    position: fixed;
+    width: 100%;
 }
 
-a{
-    font-size: 2rem;
+.menu ul{
+    list-style: none;
+    display: block;
+    padding: 0 30px;
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;   
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    display: block;
+    color: white;
+    padding: 20px;
     text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background-color: rgba(128, 128, 128, 0.418);
+}
+
+@media (max-width: 568px){
+    .grid .col{   
+        width: 100%;
+    }
+}
+
+@media (min-width: 569px) and (max-width: 768px){
+    .grid .col{   
+        width: 50%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px){
+    .grid .col{   
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 1201px) {
+    .grid .col{   
+        width: 25%;
+    }
 }
