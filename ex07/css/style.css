@@ -6,6 +6,7 @@
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 body{
@@ -14,10 +15,10 @@ body{
 }
 
 .grid {
-    width: 1200px;
+    max-width: 1200px;
     padding: 15px;
     margin: 0 auto;
-   
+    padding-top: 60px;
 }
 
 .grid .col{
@@ -26,15 +27,16 @@ body{
     height: 300px;
     float: left;
     padding: 15px  ;
-
+    
 }
 
 .grid .col-content{
     width: 100%;
     height: 100%;
     background: rgba(255, 0, 0, 0.548);
-    
     font-size: 1.6rem;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .grid::after{
@@ -44,13 +46,19 @@ body{
 }
 
 .pai{
-    width: 100vw;
+    max-width: 100%;
+    margin: auto;
     height: 100vh ;
     background-color: #15bc58;
-    
+    padding: 15px;
+    padding-top:60px ;
 }
 
-
+.full-page-content{
+    max-width: 1200px;
+    margin:auto;
+    
+}
 
 .color-one{
     background: #af59bc;
@@ -58,7 +66,6 @@ body{
 
 .color-two{
     background: yellow;
-
 }
 
 p{
@@ -89,6 +96,7 @@ p{
     color: white;
     padding: 20px;
     text-decoration: none;
+    transition: all 300ms ease-in-out;
 }
 
 .menu ul li a:hover {
