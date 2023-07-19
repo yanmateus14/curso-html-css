@@ -8,12 +8,16 @@
 
 .flex-conteiner{
     display: flex;
-    flex-direction: column ;
     background: red;
-    height: 500px;
+    justify-content:space-between;
+    flex-wrap: wrap;
 
 }
 
 .flex-item{
+    width: 32%;
+    height: 200px;
+    margin: 10px;
     background: yellow;
-}
+
+}  
