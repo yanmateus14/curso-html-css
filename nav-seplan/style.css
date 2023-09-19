@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: greenyellow;
+}
+
+div.bar{
+    width: 100%;
+    height: 46px;
+    background-image: url(http://seplan.ba.gov.br/wp-content/uploads/2021/10/bg-header-tematicos.jpg) ;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav{
+    width: 500px;
+    height: 75%;
+    background-image: linear-gradient(#0183ce,#09589b);
+    background-color: #120f57;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    
+    
+    
+}
+
+.navegation-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li.space{
+    padding-right: 25px;
+    
+}
+
+li{
+    list-style: none;
+    margin-top: 7px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: normal;
+    font-size: 12px;
+}
+
+a:hover{
+    
+    color: rgb(255, 255, 255);
+    
+}
+
+@media (max-width: 830px){
+    nav{
+        width: 320px;
+    }
+    a{
+        font-size: 9px;
+    }
+    li.space{
+        padding-right: 15px;
+    }
+    
+        
+}
